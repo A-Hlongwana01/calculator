@@ -1,0 +1,232 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+}
+ 
+.history{
+    height: 100px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+#mod{
+    font-weight:100;
+    font-size: large;
+}
+
+
+.screen{
+    display: flex;
+    background-color: #3F4E4F;
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    height: 100%;
+    width: 100%;
+    border-radius:5px ;
+    
+}
+
+
+.backspace{
+    /* height: 45px; */
+    padding: 0;
+    margin: 0;
+}
+
+
+.erase-button{
+    width: 50px;
+    background-color: #7E7474;
+    color: white;
+    border-radius: 6px;
+    /* margin: 7px; */
+    /* height: 43px; */
+    /* width: 60px; */
+    margin:5px;
+   
+}
+.textArea{
+    width: 100%;
+    height: 50px;
+    background-color: darkgray;
+    font-size: large;
+    color: white;
+    font-weight:bold ;
+    /* margin-bottom: 5px; */
+}
+
+
+
+.buttons button{
+    background-color: #7E7474;
+    color: white;
+    border-radius: 6px;
+    /* margin: 7px; */
+    height: 43px;
+    width: 60px;
+}
+
+
+.numbers{
+    font-weight: bold;
+    font-size: large;
+}
+
+
+.container {
+    /* position: absolute;     */
+    /* text-align: center; */
+    /* width: 800px; */
+    margin: o auto;
+}
+
+.interface{
+    /* padding-left: 50px; */
+    /* display: grid; */
+    /* grid-template-columns: repeat(1, 400px); */
+    /* grid-template-rows: repeat(12, 50px); */
+    /* grid-gap: 10px; */
+    width: 25%;
+    margin: 0 auto;
+    /* position: relative; */
+    padding-top: 50px;
+    /* height: 600px; */
+    
+}
+
+
+#equals{
+    background-color: green;
+    height: 90px;
+}
+
+.buttons {
+    /* position: relative; */
+    align-self: center;
+    /* justify-self: center; */
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    /* background-color: #434242; */
+    background-color: #3F4E4F;
+
+    /* width: %; */
+    height: 200px;
+    padding: 10px;
+}
+
+/* interface grid */
+.history{
+    grid-column: 1/1;
+    grid-row: 1;
+}
+
+/* grid section for buttons*/
+
+#zero{
+    grid-column: 1/1;
+    grid-row: 4/4;
+}
+
+#one{
+    grid-column: 1/2;
+    grid-row: 3/4;
+}
+
+#two{
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+
+#three{
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+#four{
+    grid-column: 1/2;
+    grid-row: 2/3;
+}
+
+#five{
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+
+#six{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+#seven{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+#eight{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+
+#nine{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+#comma{
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
+
+#mod{
+    grid-column: 3/4;
+    grid-row: 4/5;
+}
+
+
+#divid{
+    grid-column: 4/5;
+    grid-row: 4/5;
+}
+
+#add{
+    grid-column: 4/5;
+    grid-row: 3/4;
+}
+
+#subtract{
+    grid-column: 4/5;
+    grid-row: 2/3;
+}
+
+#o-bracket{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+#c-bracket{
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+#multiply{
+    grid-column: 5/6;
+    grid-row: 2/3;
+}
+
+#equals{
+    grid-column: 5/6;
+    grid-row: 3/ span 2;
+}
+
