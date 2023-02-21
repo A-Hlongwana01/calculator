@@ -18,3 +18,11 @@ const equalButton = document.getElementById("equals");
 const oBracketButton = document.getElementById("o-bracket"); 
 const cBracketButton = document.getElementById("c-bracket");
 
+const textArea = document.getElementById("input-text");
+
+const currentResultOutPut = document.getElementById("input").value
+
+
+function addToTextArea(){
+    
+}
