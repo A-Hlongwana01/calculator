@@ -3,51 +3,60 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Barlow Semi Condensed', sans-serif;
+
 }
 
-/* my colors
+ul li {
+    color: white;
+    list-style: circle;
+    display: inline;
+    font-weight: 800;
+    font-size: larger;
+}
 
-#1c1d21 light-blcakish
 
-#202328 gray-ish
+ul li a{
+    text-decoration: none;
+}
 
-*/
 
-.screen{
-    /* background-color: yellow; */
+body {
+    background-image: url(/assets/images/pexels-johannes-plenio-2850287.jpg);
+
+}
+
+h1 {
+    font-family: 'Lilita One', cursive;
 }
 
 #input{
     border-radius: 6px;
-    /* position: absolute; */
-    width: 100%;
+    width: 80%;
     background-color: #202328;
     resize: none;
     font-size: large;
     color: white;
     font-weight:bold ;
-    /* height: 56px; */
-    padding-left: 13px;
 /*                                                                  input area                                               */
-    /* border: solid #3F4E2F; */
     border-style: none;
     
-    margin: 5px 12px;
     line-height: 43px;
     height: 43px;
     overflow: hidden;
     white-space: nowrap;
-
     outline: 0;
+    text-align: right;
+    padding-left: 13px;
 }
 
 .history{
-    height: 100px;
-    /* background-color: black; */
-    background-color:#1c1d21;
+    margin: 10px 0;
+    height: 150px;
+    background-color: #202328;
     color: white;
     text-align: center;
     padding: 10px;
+    border-radius: 5px;
 }
 
 
@@ -59,46 +68,34 @@
 
 .screen{
     display: flex;
-    /* background-color: #3F4E4F; */
-    padding: 0;
-    margin: 0;
+    /* padding: 0 10px; */
+    /* margin: 5px 10px; */
+    gap: 7px;
 }
 
 
 img{
     height: 100%;
-    width: 100%;
-    border-radius:5px ;
-    
-}
-
-
-.backspace{
-    /* height: 45px; */
-    padding: 0;
-    margin: 0;
+    width: 70%;
 }
 
 
 .erase-button{
     width: 50px;
-    background-color: red;
-    color: red;
+    background-color: rgb(32, 35, 40);
     border-radius: 6px;
-    /* margin: 7px; */
-    /* height: 43px; */
-    /* width: 60px; */
-    margin:5px 10px 7px 5px;
+    border-style: none;
+    height: 43px;
+    width: 60px;
+    /* margin:5px 13px 0 20px; */
+    /* margin-top: 10px; */
 }
 
 
-
 .buttons button{
-    /* background-color: #7E7474; */
-    background-color: #202328;
+    background-color: rgb(32, 35, 40);
     color: white;
     border-radius: 6px;
-    /* margin: 7px; */
     height: 43px;
     width: 60px;
     border: none
@@ -112,59 +109,57 @@ img{
 
 
 .container {
-        position: relative;    
-    /* text-align: center; */
-    /* width: 800px; */
-    margin: o auto;
+    position: relative;    
+    /* margin: 30px auto; */
+    /* padding: 20px; */
 }
 
 .interface{
-    /* padding-left: 50px; */
-    /* display: grid; */
-    /* grid-template-columns: repeat(1, 400px); */
-    /* grid-template-rows: repeat(12, 50px); */
-    /* grid-gap: 10px; */
     width: 25%;
     margin: 0 auto;
-    /* position: relative; */
-    padding-top: 50px;
-    /* height: 600px; */
+    padding: 10px;
     background-color: #1c1d21;
-    
+    text-align: center;
+    color: white;
+    border-radius: 10px;
 }
 
 
 #equals{
-    background-color: #301E67;
-    height: 90px;
+    background-color: rgb(91, 143, 185);
+    height: 91px;
+    font-size: larger;
+
 }
 
+
 .buttons {
-    /* position: relative; */
     align-self: center;
-    /* justify-self: center; */
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(4, 1fr);
-    /* background-color: #434242; */
-    /* background-color: #3F4E4F; */
-    /* background-color: #202328; */
-
-
-    /* width: %; */
     height: 200px;
-    padding: 10px;
+    margin-top: 10px;
 }
 
-/* interface grid */
-.history{
-    grid-column: 1/1;
-    grid-row: 1;
+#erase-button:hover{
+    background-color: rgb(45, 40, 32);
 }
 
-/* grid section for buttons*/
+#equals:hover{
+    background-color: rgb(97, 160, 190);
+}
 
+button:hover {
+    background-color: rgb(35, 40, 45);
+}
+
+.button:active {
+    top: -11px;
+}
+
+/*                                              grid section for buttons                                                    */
 #zero{
     grid-column: 1/1;
     grid-row: 4/4;

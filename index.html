@@ -6,10 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="assets/styles/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
 </head>
 <body> 
     <div class="container">
+
+        <nav>
+            <ul>
+                <li> <a href="#">Converter</a> </li>
+                <li><a href="#">Calculator</a></li>
+            </ul>
+        </nav>
+        
         <div class="interface">
+            <h2>Basic Calculator</h2>
 
             <section class="history">   
                 This is the history section
@@ -21,31 +33,32 @@
                 </textarea>
                 
 
-                <div class="erase-button">
+                <!-- <div class="erase-button">
                     <button class="backspace"><img src="assets/images/backspace.png" alt=""></button>
-                </div>
+                </div> -->
+                <button class="erase-button"><img src="assets/images/delete.png" alt=""></button>
             </div>
             
             <section class="buttons">
-                <button class="numbers" id="one">1</button>
-                <button class="numbers" id="two">2</button>
-                <button class="numbers" id="three">3</button>
-                <button class="numbers" id="four">4</button>
-                <button class="numbers" id="five">5</button>
-                <button class="numbers" id="six">6</button>
-                <button class="numbers" id="seven">7</button>
-                <button class="numbers" id="eight">8</button>
-                <button class="numbers" id="nine">9</button>
-                <button class="numbers" id="zero">0</button>
-                <button id="subtract">-</button>
-                <button id="multiply">x</button>
-                <button id="add">+</button>
-                <button id="divid">÷</button>
-                <button id="equals">=</button>
-                <button id="comma">.</button>
-                <button id="mod">mod</button>
-                <button id="o-bracket">(</button>
-                <button id="c-bracket">)</button>
+                <button class="numbers btn" id="one">1</button>
+                <button class="numbers btn" id="two">2</button>
+                <button class="numbers btn" id="three">3</button>
+                <button class="numbers btn" id="four">4</button>
+                <button class="numbers btn" id="five">5</button>
+                <button class="numbers btn" id="six">6</button>
+                <button class="numbers btn" id="seven">7</button>
+                <button class="numbers btn" id="eight">8</button>
+                <button class="numbers btn" id="nine">9</button>
+                <button class="numbers btn" id="zero">0</button>
+                <button class="btn"id="subtract">-</button>
+                <button class="btn"id="multiply">x</button>
+                <button class="btn"id="add">+ </button>
+                <button class="btn"id="divid">÷</button>
+                <button class="btn"id="equals">=</button>
+                <button class="btn"id="comma">.</button>
+                <button class="btn"id="mod">mod</button>
+                <button class="btn"id="o-bracket">(</button>
+                <button class="btn"id="c-bracket">)</button>
             </section>
         </div>
     </div>
