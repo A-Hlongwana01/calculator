@@ -21,6 +21,8 @@ ul li a{
 
 
 body {
+    display: grid;
+    /* place-items: center; */
     background-image: url(/assets/images/pexels-johannes-plenio-2850287.jpg);
 
 }
@@ -29,7 +31,7 @@ h1 {
     font-family: 'Lilita One', cursive;
 }
 
-#input{
+textarea{
     border-radius: 6px;
     width: 80%;
     background-color: #202328;
@@ -37,6 +39,7 @@ h1 {
     font-size: large;
     color: white;
     font-weight:bold ;
+    justify-content: center;
 /*                                                                  input area                                               */
     border-style: none;
     
@@ -68,8 +71,6 @@ h1 {
 
 .screen{
     display: flex;
-    /* padding: 0 10px; */
-    /* margin: 5px 10px; */
     gap: 7px;
 }
 
@@ -87,8 +88,6 @@ img{
     border-style: none;
     height: 43px;
     width: 60px;
-    /* margin:5px 13px 0 20px; */
-    /* margin-top: 10px; */
 }
 
 
@@ -109,9 +108,7 @@ img{
 
 
 .container {
-    position: relative;    
-    /* margin: 30px auto; */
-    /* padding: 20px; */
+    padding: 20px;
 }
 
 .interface{

@@ -9,33 +9,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+    <script src="assets/scripts/vendor.js" defer></script>
+    <script src="assets/scripts/app.js" defer></script>
+
 </head>
 <body> 
     <div class="container">
 
-        <nav>
-            <ul>
-                <li> <a href="#">Converter</a> </li>
-                <li><a href="#">Calculator</a></li>
-            </ul>
-        </nav>
-        
         <div class="interface">
-            <h2>Basic Calculator</h2>
+            <h2>Calculator</h2>
 
             <section class="history">   
                 This is the history section
                 
             </section>
             <div class="screen">
-                <textarea name="input" id="input" cols="40" rows="" placeholder="0srtkrbj">
-                    
-                </textarea>
+                <textarea></textarea>
                 
-
-                <!-- <div class="erase-button">
-                    <button class="backspace"><img src="assets/images/backspace.png" alt=""></button>
-                </div> -->
                 <button class="erase-button"><img src="assets/images/delete.png" alt=""></button>
             </div>
             
@@ -50,10 +41,10 @@
                 <button class="numbers btn" id="eight">8</button>
                 <button class="numbers btn" id="nine">9</button>
                 <button class="numbers btn" id="zero">0</button>
-                <button class="btn"id="subtract">-</button>
-                <button class="btn"id="multiply">x</button>
-                <button class="btn"id="add">+ </button>
-                <button class="btn"id="divid">÷</button>
+                <button class="btn operator"id="subtract"> - </button>
+                <button class="btn operator"id="multiply">x</button>
+                <button class="btn operator"id="add">+</button>
+                <button class="btn operator"id="divid">÷</button>
                 <button class="btn"id="equals">=</button>
                 <button class="btn"id="comma">.</button>
                 <button class="btn"id="mod">mod</button>
@@ -63,8 +54,6 @@
         </div>
     </div>
 
-    <script src="assets/scripts/vendor.js"></script>
-    <script src="assets/scripts/app.js"></script>
 
 </body>
 </html>
